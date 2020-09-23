@@ -1,2 +1,2 @@
-# portfolio
-Blo portfolio
+# Portfolio
+Frontend Engineer Blo
