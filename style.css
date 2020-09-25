@@ -14,6 +14,7 @@
   --color-orange: #feb546;
   --color-black: #000000;
   --color-myblue: #1762e3;
+  --color-deep-myblue: #3323e8;
   /* Font size */
   --font-large: 48px;
   --font-medium: 28px;
@@ -49,6 +50,17 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 /* Typography */
@@ -112,5 +124,34 @@ p {
 }
 
 .navbar__menu__item:hover {
-  opacity: 80%;
+  background-color: var(--color-deep-myblue);
+}
+
+/* Home */
+#home {
+  padding: 40px;
+  background: url(/imgs/background-img.png) center/cover no-repeat;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border: 2px solid var(--color-light-white);
+  border-radius: 50%;
+}
+
+.home__title,
+.home__desc {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-white);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bold);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-white);
+  border-radius: var(--size-border-radius);
 }
